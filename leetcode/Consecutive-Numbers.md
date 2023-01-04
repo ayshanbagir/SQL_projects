@@ -4,12 +4,8 @@
 
 Table: **Logs**
 
-+-------------+---------+
-| Column Name | Type    |
-+-------------+---------+
-| id          | int     |
-| num         | varchar |
-+-------------+---------+
+![image](https://user-images.githubusercontent.com/48019306/210469081-32a8174c-7be5-4612-a9d0-c71adedbdc33.png)
+
 id is the primary key for this table.
 id is an autoincrement column.
 
