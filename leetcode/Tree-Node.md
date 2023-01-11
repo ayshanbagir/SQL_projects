@@ -29,7 +29,7 @@ SELECT id,
        CASE WHEN LEVEL = 1 THEN 'Root'
             WHEN CONNECT_BY_ISLEAF = 1 THEN 'Leaf'
             ELSE 'Inner' END type
-FROM   tree
+FROM tree
 START WITH p_id IS NULL
 CONNECT BY p_id = PRIOR id
 ORDER SIBLINGS BY id;  
