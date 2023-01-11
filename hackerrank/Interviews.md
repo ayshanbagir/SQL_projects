@@ -16,9 +16,9 @@ The following tables hold interview data:
 
 | Column | Type | 
 |---|---|---|
-|contest_id|integer|
-|hacker_id|integer|
-|name|string|
+| contest_id | integer |
+| hacker_id | integer|
+| name | string|
 
 **Colleges**: The college_id is the id of the college, and contest_id is the id of the contest that Samantha used to screen the candidates.
 
