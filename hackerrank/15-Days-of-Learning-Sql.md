@@ -34,7 +34,7 @@ SELECT d.submission_date, COUNT(d.hacker_id) h_cnt
 max_submission AS (
 SELECT submission_date, hacker_id, name 
   FROM (SELECT s.submission_date, s.hacker_id, s.sub_cnt, h.name,
-               ROW_NUMBER() OVER (PARTITION BY s.submission_date ORDER BY s.submission_date, s.sub_cnt desc, s.hacker_id) r
+               ROW_NUMBER() OVER (PARTITION BY s.submission_date ORDER BY s.submission_date, s.sub_cnt DESC, s.hacker_id) r
           FROM (SELECT submission_date, hacker_id, COUNT(1) sub_cnt 
                   FROM submissions
                  GROUP BY submission_date, hacker_id) s
