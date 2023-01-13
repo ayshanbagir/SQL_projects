@@ -23,7 +23,7 @@ Write an SQL query to find the employees who are high earners in each of the dep
 
 Return the result table in any order.   
 
-### Answer: 
+### My answer: 
 
 ````sql 
 SELECT department, employee, salary 
