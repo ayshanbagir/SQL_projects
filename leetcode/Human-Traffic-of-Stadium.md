@@ -14,7 +14,7 @@ Write an SQL query to display the records with three or more rows with **consecu
 
 Return the result table ordered by visit_date in **ascending order**.
 
-### Answer: 
+### My answer: 
 
 ````sql   
 WITH cte AS (
