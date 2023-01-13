@@ -14,7 +14,7 @@ Write an SQL query to swap the seat id of every two consecutive students. If the
 
 Return the result table ordered by id in ascending order.
 
-### Answer: 
+### My answer: 
 
 ````sql 
 SELECT s.id, NVL(n.student, s.student) student
