@@ -20,7 +20,7 @@ and score is the score of the submission.
 
 ![image](https://user-images.githubusercontent.com/48019306/212161131-118a1254-5c7c-4eb4-b80f-04b4a70e0836.png)
 
-### Answer: 
+### My answer: 
 
 ````sql 
 WITH hackers_cnt AS (
