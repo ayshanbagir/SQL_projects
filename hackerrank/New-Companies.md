@@ -37,7 +37,7 @@ and the company_code is the code of the working company.
 
 ![image](https://user-images.githubusercontent.com/48019306/211899051-750b7b8c-9067-4b69-b4a0-82d5e54fc2c7.png)
 
-### Answer: 
+### My answer: 
 
 ````sql   
 SELECT company_code, 
