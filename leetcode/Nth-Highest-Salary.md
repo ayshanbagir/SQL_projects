@@ -11,7 +11,7 @@ Each row of this table contains information about the salary of an employee.
 
 Write an SQL query to report the **nth** highest salary from the Employee table. If there is no nth highest salary, the query should report **null**.
 
-### Answer:
+### My answer:
 
 ````sql
 CREATE FUNCTION getNthHighestSalary(N IN NUMBER) RETURN NUMBER IS
