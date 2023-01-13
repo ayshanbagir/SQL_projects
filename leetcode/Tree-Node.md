@@ -22,7 +22,7 @@ Write an SQL query to report the type of each node in the tree.
 
 Return the result table in any order.
 
-### Answer:  
+### My answer:  
 
 ````sql 
 SELECT id,
