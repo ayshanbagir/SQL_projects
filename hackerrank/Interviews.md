@@ -33,7 +33,7 @@ and total_accepted_submission is the number of submissions that achieved full sc
 
 ![image](https://user-images.githubusercontent.com/48019306/211894730-8e1bae0a-f091-497b-ab4d-3a22b24bbe4d.png)
 
-### Answer: 
+### My answer: 
 
 ````sql 
 WITH submissions AS (
