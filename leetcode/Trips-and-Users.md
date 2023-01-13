@@ -24,7 +24,7 @@ Write a SQL query to find the **cancellation rate** of requests with unbanned us
 
 Return the result table in any order.
 
-### Answer: 
+### My answer: 
 
 ````sql 
 SELECT t.request_at AS "day", 
